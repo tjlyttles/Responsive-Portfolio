@@ -8,36 +8,51 @@
     <link rel="stylesheet" type="text/css" href="assests\css\style.css">
     <title>Document</title>
 </head>
-<body background= "assests/images/weave.png">
-    <header>
-        <div class="container">
-            <a href="index.html" id="name">TJ Lyttles</a>        
-            <nav>                    
-                <a href="index.html">About</a>         
-                <a href="portfolio.html">Portfolio</a>   
-                <a href="contact.html">Contact</a>
-            </nav>
-        </div>                
-    </header>
-    <div id="main_container">
-        <section>
-            <h1>Contact</h1>                        
-            <hr>                    
-            <form>
-                Name<br>
-                <input type="text" name="name"><br>
-                Email<br>
-                <input type="text" name="email"><br>
-                Meassage<br>            
-                <textarea></textarea><br><br>
-                <input type="submit" value="Submit">
-            </form>
-        </section>
+<body>
+    <div class="wrapper">
+        <header id="masthead">
+            <div class="container">
+                <a href="index.html" id="logo">TJ Lyttles</a>     
+                <nav>                    
+                    <ul>
+                        <li><a href="index.html">About</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>                
+        </header>
+        <main class="container">
+            <section class="main-section">
+                <h1>Contact</h1>                        
+                <hr>   
+                
+                <form id="contact-form">
+                    <ul>
+                        <li>
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+                        </li>
+                        <li>
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+                        </li>
+                        <li>
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required="required"></textarea>
+                        </li>
+                    </ul>
+                    <input type="submit">
+                </form>        
+            </section>
+            
+        </main>
+        <div class="push"></div>
     </div>
-
+            
     <footer>
         <div class="container">
-            Copyright &copy;
+            &copy; Copyright
         </div>
     </footer>
 </body>
