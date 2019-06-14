@@ -9,7 +9,7 @@ body {
   color: #777;
 
   /* Visual */
-  background-color: rgb(39, 39, 39);
+  background-color: rgb(31, 30, 30);
 }
 
 * {
@@ -135,7 +135,7 @@ h3 {
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: rgb(18, 41, 90);
+  color: rgb(198, 216, 255);
   text-align: center;
   text-decoration: underline;
 
@@ -232,8 +232,6 @@ footer {
 
 h3,
 .sidebar h2 {
-  /* Box-model */
-  padding-bottom: 20px;
 
   /* Positioning */
   margin-bottom: 15px;
@@ -264,10 +262,12 @@ h3,
   margin-right: 0;
 }
 
+
+
 /* main */
 
 main {
-  padding-top: 130px;
+  padding-top: 50px;
 }
 
 .main-section {
